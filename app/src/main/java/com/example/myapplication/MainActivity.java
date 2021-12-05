@@ -31,13 +31,11 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
-
-
-
-
     }
-    public  int add(int nbr1, int nbr2) {
+    public int add(int nbr1, int nbr2) {
         return nbr1+nbr2;
     }
+
+
 
 }
