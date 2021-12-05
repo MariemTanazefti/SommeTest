@@ -27,14 +27,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 int nbr1=Integer.parseInt(txt1.getText().toString());
                 int nbr2=Integer.parseInt(txt2.getText().toString());
-                result.setText(String.valueOf(add(nbr1,nbr2)));
+                int somm=nbr1+nbr2;
+                result.setText(String.valueOf(somm));
             }
 
         });
     }
-    public int add(int nbr1, int nbr2) {
-        return nbr1+nbr2;
-    }
+
 
 
 

@@ -7,8 +7,8 @@ import static org.junit.Assert.assertEquals;
 public class SommeTest {
     @Test
     public void add() {
-        MainActivity mainActivity=new MainActivity();
-        int result = mainActivity.add(5,2);
+        Somme somme=new Somme();
+        int result = somme.add(5,2);
         int expected = 7;
         assertEquals(expected, result);
     }
