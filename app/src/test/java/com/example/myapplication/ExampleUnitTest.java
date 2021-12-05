@@ -11,10 +11,11 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest  {
     @Test
-    public void addition_isCorrect() throws Exception{
+    public void addition_isCorrect(){
         MainActivity mainActivity=new MainActivity();
-        int result = mainActivity.add(2, 2);
+        int result = mainActivity.add(2,2);
         int expected = 4;
         assertEquals(expected, result);
+
     }
 }
